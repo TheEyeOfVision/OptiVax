@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-leaflet-examples/static/css/main.2e662a65.css",
+    "main.js": "/react-leaflet-examples/static/js/main.72ce872f.js",
+    "static/media/red-marker.png": "/react-leaflet-examples/static/media/red-marker.91838329072f14fc5372.png",
+    "static/media/yellow-marker.png": "/react-leaflet-examples/static/media/yellow-marker.d1d602691366669e2d62.png",
+    "static/media/green-marker.png": "/react-leaflet-examples/static/media/green-marker.63fb32d57e678094ae60.png",
+    "static/media/orange-marker.png": "/react-leaflet-examples/static/media/orange-marker.ee8a34df558b63c5bee9.png",
+    "static/media/purple-marker.png": "/react-leaflet-examples/static/media/purple-marker.87794b742d1e49e43d9d.png",
+    "static/media/brown-marker.png": "/react-leaflet-examples/static/media/brown-marker.48813f7fbb0ab7e79932.png",
+    "static/media/cyan-marker.png": "/react-leaflet-examples/static/media/cyan-marker.5928c2b8eab5649cf168.png",
+    "static/media/blue-marker.png": "/react-leaflet-examples/static/media/blue-marker.11a9993b1c7940c80406.png",
+    "static/media/green-star.png": "/react-leaflet-examples/static/media/green-star.5e270999a60afd2a4ad0.png",
+    "static/media/blue-star.png": "/react-leaflet-examples/static/media/blue-star.af54e479b6b236468b86.png",
+    "static/media/cyan-star.png": "/react-leaflet-examples/static/media/cyan-star.91b848d15ec149ec3469.png",
+    "static/media/purple-star.png": "/react-leaflet-examples/static/media/purple-star.3a8de28a77fc270137de.png",
+    "static/media/red-star.png": "/react-leaflet-examples/static/media/red-star.445793ff4d86d891ec6b.png",
+    "static/media/orange-star.png": "/react-leaflet-examples/static/media/orange-star.90c382fdc54423838bb0.png",
+    "static/media/yellow-star.png": "/react-leaflet-examples/static/media/yellow-star.4d3328a7b2436e641322.png",
+    "static/media/brown-star.png": "/react-leaflet-examples/static/media/brown-star.8f5e42d441ebe83254d0.png",
+    "index.html": "/react-leaflet-examples/index.html",
+    "main.2e662a65.css.map": "/react-leaflet-examples/static/css/main.2e662a65.css.map",
+    "main.72ce872f.js.map": "/react-leaflet-examples/static/js/main.72ce872f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e662a65.css",
+    "static/js/main.72ce872f.js"
+  ]
+}
