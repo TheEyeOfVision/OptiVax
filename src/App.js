@@ -40,7 +40,7 @@ function App() {
   const [openInfoDialog, setOpenInfoDialog] = useState(false); // State for the info dialog
 
   const MAPBOX_ACCESS_TOKEN = 'YOUR_MAPBOX_ACCESS_TOKEN';
-  const API_BASE_URL = 'http://localhost:8000';
+  const API_BASE_URL = 'https://optivax.onrender.com:8000';
 
   // Handle file upload
   const handleFileUpload = async (event) => {
