@@ -47,7 +47,6 @@
     "not dead",
     "not op_mini all"
   ],
-  "homepage": "https://tomik23.github.io/react-leaflet-examples",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
