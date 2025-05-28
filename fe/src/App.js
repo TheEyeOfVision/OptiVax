@@ -36,7 +36,7 @@ function App() {
   const [optimizationResult, setOptimizationResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [showTooltips, setShowTooltips] = useState(true); // State to toggle tooltips
+  const [showTooltips, setShowTooltips] = useState(false; // State to toggle tooltips
   const [openInfoDialog, setOpenInfoDialog] = useState(false); // State for the info dialog
 
   const MAPBOX_ACCESS_TOKEN = 'YOUR_MAPBOX_ACCESS_TOKEN';
