@@ -22,7 +22,7 @@ SECRET_KEY = 'your-secret-key-here'  # Replace with your actual secret key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False  # Set to False in production
 
-ALLOWED_HOSTS = ['10.206.100.249','localhost',"https://optivax-csrc.vercel.app/","optivax.onrender.com"]  # Add your domain or IP in production
+ALLOWED_HOSTS = ['10.207.9.54','localhost',"https://optivax-csrc.vercel.app/","optivax.onrender.com"]  # Add your domain or IP in production
 
 # Application definition
 
