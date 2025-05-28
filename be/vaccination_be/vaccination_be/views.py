@@ -309,7 +309,8 @@ class TransformXLSX(APIView):
                     "locations": barangays_df[['latitude', 'longitude']].values.tolist(),
                     "names": barangays_df['Barangay_name'].fillna('').tolist(),
                     "populations": barangays_df['population'].fillna(0).astype(int).tolist(),
-                    "infected": barangays_df['infected'].fillna(0).astype(int).tolist()
+                    "infected": barangays_df['infected'].fillna(0).astype(int).tolist(),
+                    "Municipality": barangays_df['Municipality'].fillna(0).tolist()
                 }
             }
             return Response({'data': json_data}, status=status.HTTP_200_OK)
