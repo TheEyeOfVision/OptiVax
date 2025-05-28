@@ -424,12 +424,11 @@ def iterative_conflict_resolution(selected_sites, threshold, available_colors=No
 class SimpleOptimization(APIView):
     def post(self, request):
         data = request.data
-        address = data.get('address')
         L = data.get('L')
         method = data.get('method')
         sites_data = data.get('sites')
         barangays_data = data.get('barangays')
-
+        address = barangays_data.get('Municipality')[0]
         # Validate required parameters
         if not all([address, L, method, sites_data, barangays_data]):
             return Response(

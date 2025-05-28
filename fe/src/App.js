@@ -40,7 +40,7 @@ function App() {
   const [openInfoDialog, setOpenInfoDialog] = useState(false); // State for the info dialog
 
   const MAPBOX_ACCESS_TOKEN = 'YOUR_MAPBOX_ACCESS_TOKEN';
-  const API_BASE_URL = 'https://optivax.onrender.com:8000';
+  const API_BASE_URL = 'http://10.207.9.54:8000';
 
   // Handle file upload
   const handleFileUpload = async (event) => {
@@ -68,11 +68,10 @@ function App() {
 
   // Handle calculation
   const handleCalculateClick = async () => {
-    console.log('Address:', address);
     console.log('Number of Sites (L):', numSites);
     console.log('Transformed Data:', transformedData);
 
-    if (!address || !numSites || !transformedData) {
+    if (!numSites || !transformedData) {
       setError('Please provide all required inputs: Address, Number of Sites, and upload a file.');
       return;
     }
@@ -83,7 +82,6 @@ function App() {
     }
 
     const payload = {
-      address: address,
       L: L,
       method: 'numerical',
       sites: transformedData.sites,
@@ -140,14 +138,7 @@ function App() {
           Selected File: {fileName}
         </Typography>
       )}
-      <Box>
-        <Autocomplete
-          accessToken={MAPBOX_ACCESS_TOKEN}
-          value={address}
-          onChange={handleManualAddressChange}
-          onSelect={handleAddressSelect}
-        />
-      </Box>
+      
       <TextField
         fullWidth
         label="Number of Optimization Sites (L)"
